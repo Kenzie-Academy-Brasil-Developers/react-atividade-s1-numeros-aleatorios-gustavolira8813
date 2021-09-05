@@ -1,0 +1,58 @@
+button {
+  color: white;
+  background-color: black;
+  border: 2px solid red;
+}
+input {
+  margin-bottom: 5px;
+}
+button:hover {
+  filter: brightness(2);
+  background-color: rgba(44, 36, 36, 0.829);
+}
+.add,
+.sub {
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  border-radius: 50%;
+}
+.add:hover {
+  background-color: green;
+  border: 2px solid green;
+}
+.add:active {
+  position: relative;
+  top: 2px;
+  left: 2px;
+}
+.sub:active {
+  position: relative;
+  top: 2px;
+  left: 2px;
+}
+.sub:hover {
+  background-color: red;
+}
+.randomButton {
+  border-radius: 54px;
+  height: 100px;
+}
+button.randomButton:active {
+  background: #ff2c07;
+  position: relative;
+  top: 2px;
+}
+.result {
+  color: darkorange;
+  font-size: 70px;
+  background-color: black;
+  border-radius: 61px;
+  min-width: 100px;
+}
+input {
+  border-radius: 30px;
+  width: 70px;
+  height: 20px;
+  text-align: center;
+}
